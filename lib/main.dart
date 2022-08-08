@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:money_application/screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,20 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),debugShowCheckedModeBanner: true,
-      home: const MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Image.asset('assets/images/logo.png'),
-      ),
+      home: const LaunchScreen(),
     );
   }
 }
