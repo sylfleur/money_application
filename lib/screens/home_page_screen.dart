@@ -9,7 +9,7 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Title(
           color: Colors.black,
-          child: const Text('Mu HomePage'),
+          child: const Text('My HomePage'),
         ),
       ),
     );
